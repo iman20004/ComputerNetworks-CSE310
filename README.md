@@ -3,8 +3,8 @@ Course at Stony Brook University
 
 ## Assignments
 
-- Assingment 1 - DNS
-- Assingment 2 - PCAP
+- Assingment 1 - Implementing a DNS Resolver
+- Assingment 2 - Parsing TCP packets (PCAP files)
 
 
 
