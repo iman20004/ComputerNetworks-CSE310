@@ -1,6 +1,8 @@
-Programming Assignment 1: All about DNS CSE 310, Spring 2021
-Instructor: Aruna Balasubramanian
-Due date: 03/04/2021, 9.00pm
+##Programming Assignment 1: All about DNS CSE 310, Spring 2021
+###Instructor: Aruna Balasubramanian
+###Due date: 03/04/2021, 9.00pm
+
+
 Almost everything on the Internet involves DNS resolution. If DNS is slow, the performance of your application is going to suffer. The goal of this homework is write your own DNS resolver, and compare its performance with other existing DNS resolvers.
 You can assume that you have access to a
 1. You can access the IP address of the root servers from https://www.iana.org/domains/root/servers.
@@ -11,8 +13,11 @@ ANSWER SECTION:
 www.cnn.com. 262 IN A 151.101.209.67
          Query time: How much time it took to resolve the query
          WHEN: Data and time of request
+         
 You will use two APIs to create a DNS request to each individual server. The first is to create a DNS query and the second is to send this query to the destination. Figuring out the right APIs is up to you, but both can be found in the library.
-Part A (70 points)
+
+
+##Part A (70 points)
 You will be implementing a DNS resolver. The resolver takes as input a domain name. Your resolver resolves this query by first contacting the root server, the top-level domain, all the way until the authoritative name server.
  library that can resolve a single iterative DNS
  query. The set of libraries that you may use are given in the Appendix. The libraries also
@@ -20,11 +25,13 @@ You will be implementing a DNS resolver. The resolver takes as input a domain na
 Along with the code, you need to submit an output file called “mydig_output”, that
 contains the expected output for running your mydig program. Please specify the input
 to your program.
+
 In some cases, you will not be able to resolve the query to the complete IP address, but only get a “CNAME”. In this case, simply output the CNAME in the answer section.
  Bonus (5%): In some cases, you may need additional resolution. For example,
  google.co.jp will often not resolve to an IP address in one pass and will resolve to a
  CNAME. For bonus points, you can handle this case.
-PART B (30 points)
+ 
+##PART B (30 points)
 Your next task is to measure the performance of your DNS resolver from Part A. Pick 10 out of the top 25 Websites from alexa.com (http://www.alexa.com/topsites.)
  Experiment 1: Run your DNS resolver on each website 10 times and find the average time, 25th percentile, and 75th percentile to resolve the DNS for each of the 25 websites.
 Experiment 2: Now use your local DNS resolver and repeat the experiment(call this Local DNS). Find the average time to resolve the address for the 10 websites.
