@@ -51,12 +51,12 @@ Explain your result as best as you can.
 
 #### Submission instruction
 You need to submit your homework in a single zip file as follows:
-- The zip file and (the root folder inside) should be named using your last name, first name, and the assignment name, all separated by a dash (‘-‘)
-         e.g. lastname-firstname-assignment1.zip
+- The zip file and (the root folder inside) should be named using your last name, first name, and the assignment name, all separated by a dash (‘-‘)<br />
+  e.g. lastname-firstname-assignment1.zip
 - The zip file should contain your code corresponding to Part A and your answer in Part B. Please be sure to put code in the root folder rather than in separate folders. Provide sufficient comments to your code.
 - Include the expected output file “mydig_output” as specified in Part A.
-- You should provide a README file describing:
-         - External libraries used.
+- You should provide a README file describing:<br />
+         - External libraries used.<br />
          - Instructions on how to run your programs.
          
 All README and your answer to Part B should be in pdf.
