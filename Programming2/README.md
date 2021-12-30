@@ -1,7 +1,6 @@
 ## Programming Assignment 2: Analyzing packet traces (PCAP)
 ### Instructor: Aruna Balasubramanian
 
-
 The goal of this assignment is to dissect TCP packets. To do this, you should be familiar with the packet formats (PCAP files).
 Specifically, your goal is to parse a PCAP file. PCAP is the file format used to store packets captured on the wire. PCAP files are in binary format and cannot be read directly. A PCAP library is used to parse the binary packet. Your goal is to write a parser that analyzes the packet with the help of the PCAP library.
 TCPdump is the command-line tool that also analyzes the packets captured on the wire. Wireshark is the graphical version of TCPDump. You can check out these tools to see some examples of packet analysis if you want.
@@ -49,6 +48,6 @@ You need to submit your homework in a single zip file as follows:
   e.g. lastname-firstname-assignment2.zip<br />
 - The zip file should contain (i) the high-level summary of the analysis_pcap_tcp code including how you estimated the answers to the questions in Part A and Part B, (ii) the analysis_pcap_tcp program, and (iii) instructions on how to run your code
 
-Some example pcap libraries that you can use: 
-C/C++ - libpcap
+Some example pcap libraries that you can use: <br />
+C/C++ - libpcap<br />
 Python - dpkt
